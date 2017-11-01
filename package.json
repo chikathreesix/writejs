@@ -1,0 +1,31 @@
+{
+  "name": "writejs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config config/webpack.config.js",
+    "dev": "webpack-dev-server --progress --colors --config config/webpack.config.js --content-base build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chikathreesix/writejs.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chikathreesix/writejs/issues"
+  },
+  "homepage": "https://github.com/chikathreesix/writejs#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "uglifyjs-webpack-plugin": "^1.0.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
+  }
+}
