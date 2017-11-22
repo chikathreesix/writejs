@@ -2,9 +2,10 @@ const webpack = require('webpack');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
 
 module.exports = {
-  entry: __dirname + '/../src/javascripts/write.js',
+  entry: __dirname + "/../src/javascripts/write.js",
   output: {
-    path: __dirname + '/../build',
+    path: __dirname + "/../build",
+    publicPath: "/assets/",
     filename: 'write.js'
   },
   module: {
